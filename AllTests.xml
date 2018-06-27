@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests">
+    <listeners>
+        <listener class-name="utils.listeners.TestNGListener"/>
+    </listeners>
+    <test name="AllTests">
+        <classes>
+            <class name="StartPageTest"/>
+            <class name="LogInToGmailTest"/>
+            <class name="WriteLetterTest"/>
+            <class name="RemoveEmailFromInboxListTest"/>
+        </classes>
+    </test>
+</suite>
