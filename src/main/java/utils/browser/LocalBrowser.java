@@ -13,7 +13,7 @@ public class LocalBrowser {
             + File.separator
             + "src" + File.separator
             + "main" + File.separator + "drivers" + File.separator;
-    private final String CHROME_DRIVER = "chromedriver.exe";
+    private final String CHROME_DRIVER = "chromedriver";
     private final String FIREFOX_DRIVER = "geckodriver.exe";
 
     public WebDriver getDriver(String browser) throws UnavailableParameterException {
